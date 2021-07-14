@@ -6,17 +6,17 @@ public class Exception{
     public static void main(String args []){
         Scanner sc = new Scanner(System.in);
         int n = 150;
-        int x = 0;
-        System.out.println("Enter the opertion: ");
-        x= sc.nextInt();
+        int a = 0;
+        System.out.println("Enter Your data: ");
+        a= sc.nextInt();
         try {
-            switch (x) {
+            switch (a) {
                 case 0:
-                    int a= n/x;
+                    int b=n/a;
                     break;
                 case 1 :
-                    String s = null;
-                    System.out.println(s.charAt(x));
+                    String st = null;
+                    System.out.println(st.charAt(a));
                 default:
                     System.out.println("No exception.");
                     break;
